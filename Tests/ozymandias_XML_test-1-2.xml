@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <text>
-<title media="poem">Ozymandias
-<author>Percy Bysshe Shelley</author>
-</title>
-   <publication>
-            <title media="journal">The Examiner</title>
-            <pubPlace>London</pubPlace>
-            <date when="1818-01-11">11 January 1818</date>
-        </publication> British Library 
-            <ref target="http://www.bl.uk/learning/timeline/item126940.html"/>
+    
+    <title media="poem">Ozymandias</title>
+    <author>Percy Bysshe Shelley</author>
+    
+    
+    <publication>
+        <title media="journal">The Examiner</title>
+        <pubPlace>London</pubPlace>
+        <date when="1818-01-11">11 January 1818</date>
+        <publisher>British Library</publisher>
+        <ref target="http://www.bl.uk/learning/timeline/item126940.html"/>
+    </publication>
+    
     <poem>
         <line n="1">I met a traveller from an antique land,</line>
         <line n="2">Who said—Two vast and trunkless legs of stone</line>
@@ -21,8 +26,8 @@
         <line n="9">And on the pedestal, these words appear:</line>
         <line n="10">My name is Ozymandias, King of Kings;</line>
         <line n="11">Look on my Works, ye Mighty, and despair!</line>
-        <l n="12">Nothing beside remains. Round the decay</l>
+        <line n="12">Nothing beside remains. Round the decay</line> 
         <line n="13">Of that colossal Wreck, boundless and bare</line>
-        <line n="16">The lone and level sands stretch far away.”</line>
+        <line n="14">The lone and level sands stretch far away.”</line> 
     </poem>
-</text>
+</text> 
