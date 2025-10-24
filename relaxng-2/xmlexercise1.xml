@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../github/digit-110/relaxng-2/xmlexercise1schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="xmlexercise1schema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <letter sender="Marian Baldwin">
-    <header>[Letter from Marian Baldwin, June 30, 1917]</header>
+    <header when="1917-06-30">[Letter from Marian Baldwin, June 30, 1917]</header>
 
     <place type="ship">On Board La Touraine,</place>
 

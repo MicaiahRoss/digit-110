@@ -3,7 +3,8 @@ start = letter
 letter = element letter { sender, header, place, date, paragraph+, source }
 sender = attribute sender { text }
 
-header = element header { text }
+header = element header {when, text}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear}
 
 place = element place { type, text }
 type = attribute type { "ship" | "boat" | "yacht" }
