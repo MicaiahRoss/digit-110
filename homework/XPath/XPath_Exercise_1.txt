@@ -1,0 +1,44 @@
+1) Find all elements that hold panel groups (whole pages).
+XPath:
+    //div[@type='panelGrp']
+Results: 24 items
+
+2) Step down from those panel groups to find ALL panels.
+XPath:
+   //div[@type='panelGrp']//cbml:panel 
+Results: 58 items
+
+3a) Return ONLY the second panel group (the second page).
+XPath:
+    (//div[@type='panelGrp'])[2]
+Results: 1 item
+
+3b) Return ONLY the <cbml:panel> elements inside that second panel group.
+XPath:
+    (//div[@type='panelGrp'])[2]//cbml:panel
+Results: 1 item
+
+4) Return ALL values of the @characters attribute.
+XPath:
+    //@characters
+Results: 53 items
+
+5) Return panels in which ONLY the narrator is represented.
+XPath:
+    //cbml:panel[@characters='#narrator']
+Results: 52 items
+
+6a) Return ALL <floatingText> elements.
+XPath:
+    //floatingText
+Results: 41 items
+
+6b) Return ONLY the <cbml:panel> elements that CONTAIN a <floatingText>.
+XPath:
+    //cbml:panel[floatingText]
+Results: 26 items
+
+6c) Count the number of panels that include <floatingText> (function).
+XPath:
+    count(//cbml:panel[floatingText])
+Results: 1 item
